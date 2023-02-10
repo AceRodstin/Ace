@@ -115,6 +115,7 @@
 		50D8A9AE2995FD110087D7E3 /* CharactersParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9A42995FD110087D7E3 /* CharactersParserTests.swift */; };
 		50D8A9AF2995FD110087D7E3 /* LiteralsParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9A52995FD110087D7E3 /* LiteralsParserTests.swift */; };
 		50D8A9B02995FD110087D7E3 /* StatementsParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9A62995FD110087D7E3 /* StatementsParserTests.swift */; };
+		50D8A9B32995FD7D0087D7E3 /* TextReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9B22995FD7D0087D7E3 /* TextReaderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -197,6 +198,7 @@
 		50D8A9A42995FD110087D7E3 /* CharactersParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharactersParserTests.swift; sourceTree = "<group>"; };
 		50D8A9A52995FD110087D7E3 /* LiteralsParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiteralsParserTests.swift; sourceTree = "<group>"; };
 		50D8A9A62995FD110087D7E3 /* StatementsParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatementsParserTests.swift; sourceTree = "<group>"; };
+		50D8A9B22995FD7D0087D7E3 /* TextReaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextReaderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +264,7 @@
 				50D8A9972995FC8E0087D7E3 /* ScopeTests */,
 				50D8A9B12995FD140087D7E3 /* SyntacticAnalyzerTests */,
 				50D8A9982995FCC70087D7E3 /* SourceCodeManagerTests.swift */,
+				50D8A9B22995FD7D0087D7E3 /* TextReaderTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -674,6 +677,7 @@
 				50D8A9AB2995FD110087D7E3 /* DeclarationsParserTests.swift in Sources */,
 				50D8A94B2995FB240087D7E3 /* FloatingPointLiteralsParser.swift in Sources */,
 				50D8A8FE2995FAE90087D7E3 /* Literal.swift in Sources */,
+				50D8A9B32995FD7D0087D7E3 /* TextReaderTests.swift in Sources */,
 				50D8A9912995FC180087D7E3 /* ExpressionsExecutorTests.swift in Sources */,
 				50D8A9872995FC180087D7E3 /* IntegerLiteralsExecutorTests.swift in Sources */,
 				50D8A9A92995FD110087D7E3 /* ExpressionsParserTests.swift in Sources */,
