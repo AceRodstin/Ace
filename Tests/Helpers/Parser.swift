@@ -9,6 +9,11 @@
 import Foundation
 
 final class Parser {
+	static func parseTokens(string: String) throws -> [Token] {
+		let parser = TokenParser()
+		return try parser.parse(string: string)
+	}
+	
 	static func parseSymbols(string: String, symbols: [Symbol] = []) throws -> [Symbol] {
 		let tokenParser = TokenParser()
 		let tokens = try tokenParser.parse(string: string)

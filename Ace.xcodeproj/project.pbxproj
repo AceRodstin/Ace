@@ -116,6 +116,14 @@
 		50D8A9AF2995FD110087D7E3 /* LiteralsParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9A52995FD110087D7E3 /* LiteralsParserTests.swift */; };
 		50D8A9B02995FD110087D7E3 /* StatementsParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9A62995FD110087D7E3 /* StatementsParserTests.swift */; };
 		50D8A9B32995FD7D0087D7E3 /* TextReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9B22995FD7D0087D7E3 /* TextReaderTests.swift */; };
+		50D8A9BC2995FDA50087D7E3 /* ParseIntegerLiteralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9B42995FDA50087D7E3 /* ParseIntegerLiteralTests.swift */; };
+		50D8A9BD2995FDA50087D7E3 /* ParseIdentifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9B52995FDA50087D7E3 /* ParseIdentifierTests.swift */; };
+		50D8A9BE2995FDA50087D7E3 /* ParseFloatLiteralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9B62995FDA50087D7E3 /* ParseFloatLiteralTests.swift */; };
+		50D8A9BF2995FDA50087D7E3 /* ParsePunctuatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9B72995FDA50087D7E3 /* ParsePunctuatorTests.swift */; };
+		50D8A9C02995FDA50087D7E3 /* ParseDelimiterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9B82995FDA50087D7E3 /* ParseDelimiterTests.swift */; };
+		50D8A9C12995FDA50087D7E3 /* ParseKeywordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9B92995FDA50087D7E3 /* ParseKeywordTests.swift */; };
+		50D8A9C22995FDA50087D7E3 /* ParseCharacterLiteralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9BA2995FDA50087D7E3 /* ParseCharacterLiteralTests.swift */; };
+		50D8A9C32995FDA50087D7E3 /* ParseStringLiteralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9BB2995FDA50087D7E3 /* ParseStringLiteralTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -199,6 +207,14 @@
 		50D8A9A52995FD110087D7E3 /* LiteralsParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiteralsParserTests.swift; sourceTree = "<group>"; };
 		50D8A9A62995FD110087D7E3 /* StatementsParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatementsParserTests.swift; sourceTree = "<group>"; };
 		50D8A9B22995FD7D0087D7E3 /* TextReaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextReaderTests.swift; sourceTree = "<group>"; };
+		50D8A9B42995FDA50087D7E3 /* ParseIntegerLiteralTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseIntegerLiteralTests.swift; sourceTree = "<group>"; };
+		50D8A9B52995FDA50087D7E3 /* ParseIdentifierTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseIdentifierTests.swift; sourceTree = "<group>"; };
+		50D8A9B62995FDA50087D7E3 /* ParseFloatLiteralTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseFloatLiteralTests.swift; sourceTree = "<group>"; };
+		50D8A9B72995FDA50087D7E3 /* ParsePunctuatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParsePunctuatorTests.swift; sourceTree = "<group>"; };
+		50D8A9B82995FDA50087D7E3 /* ParseDelimiterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseDelimiterTests.swift; sourceTree = "<group>"; };
+		50D8A9B92995FDA50087D7E3 /* ParseKeywordTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseKeywordTests.swift; sourceTree = "<group>"; };
+		50D8A9BA2995FDA50087D7E3 /* ParseCharacterLiteralTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseCharacterLiteralTests.swift; sourceTree = "<group>"; };
+		50D8A9BB2995FDA50087D7E3 /* ParseStringLiteralTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseStringLiteralTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +279,7 @@
 				50D8A9992995FCC70087D7E3 /* Resources */,
 				50D8A9972995FC8E0087D7E3 /* ScopeTests */,
 				50D8A9B12995FD140087D7E3 /* SyntacticAnalyzerTests */,
+				50D8A9C42995FDA80087D7E3 /* TokenParserTests */,
 				50D8A9982995FCC70087D7E3 /* SourceCodeManagerTests.swift */,
 				50D8A9B22995FD7D0087D7E3 /* TextReaderTests.swift */,
 			);
@@ -477,6 +494,21 @@
 			path = SyntacticAnalyzerTests;
 			sourceTree = "<group>";
 		};
+		50D8A9C42995FDA80087D7E3 /* TokenParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				50D8A9BA2995FDA50087D7E3 /* ParseCharacterLiteralTests.swift */,
+				50D8A9B82995FDA50087D7E3 /* ParseDelimiterTests.swift */,
+				50D8A9B62995FDA50087D7E3 /* ParseFloatLiteralTests.swift */,
+				50D8A9B52995FDA50087D7E3 /* ParseIdentifierTests.swift */,
+				50D8A9B42995FDA50087D7E3 /* ParseIntegerLiteralTests.swift */,
+				50D8A9B92995FDA50087D7E3 /* ParseKeywordTests.swift */,
+				50D8A9B72995FDA50087D7E3 /* ParsePunctuatorTests.swift */,
+				50D8A9BB2995FDA50087D7E3 /* ParseStringLiteralTests.swift */,
+			);
+			path = TokenParserTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -632,6 +664,8 @@
 				50D8A92B2995FB0E0087D7E3 /* RecordTable.swift in Sources */,
 				50D8A95D2995FB2E0087D7E3 /* TextReader.swift in Sources */,
 				50D8A9772995FB460087D7E3 /* BinaryNode.swift in Sources */,
+				50D8A9BE2995FDA50087D7E3 /* ParseFloatLiteralTests.swift in Sources */,
+				50D8A9C02995FDA50087D7E3 /* ParseDelimiterTests.swift in Sources */,
 				50D8A9142995FB030087D7E3 /* SymbolBuilder.swift in Sources */,
 				50D8A9642995FB3C0087D7E3 /* CharacterBuffer.swift in Sources */,
 				50D8A96A2995FB3C0087D7E3 /* TokenBuilder.swift in Sources */,
@@ -641,9 +675,12 @@
 				50D8A8F62995FAE90087D7E3 /* Punctuator.swift in Sources */,
 				50D8A9512995FB240087D7E3 /* ExpressionsParser.swift in Sources */,
 				50D8A91E2995FB030087D7E3 /* IntegerLiteralsExecutor.swift in Sources */,
+				50D8A9C12995FDA50087D7E3 /* ParseKeywordTests.swift in Sources */,
+				50D8A9C22995FDA50087D7E3 /* ParseCharacterLiteralTests.swift in Sources */,
 				50D8A8FC2995FAE90087D7E3 /* BaseType.swift in Sources */,
 				50D8A9AC2995FD110087D7E3 /* OperatorsParserTests.swift in Sources */,
 				50D8A9752995FB460087D7E3 /* NodeDumper.swift in Sources */,
+				50D8A9BD2995FDA50087D7E3 /* ParseIdentifierTests.swift in Sources */,
 				50D8A9162995FB030087D7E3 /* Symbol.swift in Sources */,
 				50D8A98F2995FC180087D7E3 /* Parser.swift in Sources */,
 				50D8A9682995FB3C0087D7E3 /* Token.swift in Sources */,
@@ -654,6 +691,7 @@
 				50D8A9952995FC8B0087D7E3 /* ScopeTests.swift in Sources */,
 				50D8A9732995FB460087D7E3 /* Stream.swift in Sources */,
 				50D8A9AA2995FD110087D7E3 /* TypesParserTests.swift in Sources */,
+				50D8A9BC2995FDA50087D7E3 /* ParseIntegerLiteralTests.swift in Sources */,
 				50D8A9572995FB240087D7E3 /* SyntacticNodeKind.swift in Sources */,
 				50D8A9AE2995FD110087D7E3 /* CharactersParserTests.swift in Sources */,
 				50D8A99B2995FCC70087D7E3 /* SourceCodeManagerTests.swift in Sources */,
@@ -673,6 +711,7 @@
 				50D8A9432995FB240087D7E3 /* IdentifiersParser.swift in Sources */,
 				50D8A91C2995FB030087D7E3 /* ExpressionsExecutor.swift in Sources */,
 				50D8A9962995FC8B0087D7E3 /* SymbolTableTests.swift in Sources */,
+				50D8A9BF2995FDA50087D7E3 /* ParsePunctuatorTests.swift in Sources */,
 				50D8A9452995FB240087D7E3 /* LiteralsParser.swift in Sources */,
 				50D8A9AB2995FD110087D7E3 /* DeclarationsParserTests.swift in Sources */,
 				50D8A94B2995FB240087D7E3 /* FloatingPointLiteralsParser.swift in Sources */,
@@ -683,6 +722,7 @@
 				50D8A9A92995FD110087D7E3 /* ExpressionsParserTests.swift in Sources */,
 				50D8A91A2995FB030087D7E3 /* FloatLiteralsExecutor.swift in Sources */,
 				50D8A9252995FB0E0087D7E3 /* Scope.swift in Sources */,
+				50D8A9C32995FDA50087D7E3 /* ParseStringLiteralTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
