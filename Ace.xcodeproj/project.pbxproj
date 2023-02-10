@@ -105,6 +105,16 @@
 		50D8A9962995FC8B0087D7E3 /* SymbolTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9942995FC8B0087D7E3 /* SymbolTableTests.swift */; };
 		50D8A99B2995FCC70087D7E3 /* SourceCodeManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9982995FCC70087D7E3 /* SourceCodeManagerTests.swift */; };
 		50D8A99C2995FCC70087D7E3 /* TestSourceCode.ace in Resources */ = {isa = PBXBuildFile; fileRef = 50D8A99A2995FCC70087D7E3 /* TestSourceCode.ace */; };
+		50D8A9A72995FD110087D7E3 /* IdentifiersParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A99D2995FD110087D7E3 /* IdentifiersParserTests.swift */; };
+		50D8A9A82995FD110087D7E3 /* IntegerLiteralsParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A99E2995FD110087D7E3 /* IntegerLiteralsParserTests.swift */; };
+		50D8A9A92995FD110087D7E3 /* ExpressionsParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A99F2995FD110087D7E3 /* ExpressionsParserTests.swift */; };
+		50D8A9AA2995FD110087D7E3 /* TypesParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9A02995FD110087D7E3 /* TypesParserTests.swift */; };
+		50D8A9AB2995FD110087D7E3 /* DeclarationsParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9A12995FD110087D7E3 /* DeclarationsParserTests.swift */; };
+		50D8A9AC2995FD110087D7E3 /* OperatorsParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9A22995FD110087D7E3 /* OperatorsParserTests.swift */; };
+		50D8A9AD2995FD110087D7E3 /* FloatingPointLiteralsParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9A32995FD110087D7E3 /* FloatingPointLiteralsParserTests.swift */; };
+		50D8A9AE2995FD110087D7E3 /* CharactersParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9A42995FD110087D7E3 /* CharactersParserTests.swift */; };
+		50D8A9AF2995FD110087D7E3 /* LiteralsParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9A52995FD110087D7E3 /* LiteralsParserTests.swift */; };
+		50D8A9B02995FD110087D7E3 /* StatementsParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9A62995FD110087D7E3 /* StatementsParserTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -177,6 +187,16 @@
 		50D8A9942995FC8B0087D7E3 /* SymbolTableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolTableTests.swift; sourceTree = "<group>"; };
 		50D8A9982995FCC70087D7E3 /* SourceCodeManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceCodeManagerTests.swift; sourceTree = "<group>"; };
 		50D8A99A2995FCC70087D7E3 /* TestSourceCode.ace */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestSourceCode.ace; sourceTree = "<group>"; };
+		50D8A99D2995FD110087D7E3 /* IdentifiersParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentifiersParserTests.swift; sourceTree = "<group>"; };
+		50D8A99E2995FD110087D7E3 /* IntegerLiteralsParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegerLiteralsParserTests.swift; sourceTree = "<group>"; };
+		50D8A99F2995FD110087D7E3 /* ExpressionsParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressionsParserTests.swift; sourceTree = "<group>"; };
+		50D8A9A02995FD110087D7E3 /* TypesParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypesParserTests.swift; sourceTree = "<group>"; };
+		50D8A9A12995FD110087D7E3 /* DeclarationsParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeclarationsParserTests.swift; sourceTree = "<group>"; };
+		50D8A9A22995FD110087D7E3 /* OperatorsParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorsParserTests.swift; sourceTree = "<group>"; };
+		50D8A9A32995FD110087D7E3 /* FloatingPointLiteralsParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingPointLiteralsParserTests.swift; sourceTree = "<group>"; };
+		50D8A9A42995FD110087D7E3 /* CharactersParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharactersParserTests.swift; sourceTree = "<group>"; };
+		50D8A9A52995FD110087D7E3 /* LiteralsParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiteralsParserTests.swift; sourceTree = "<group>"; };
+		50D8A9A62995FD110087D7E3 /* StatementsParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatementsParserTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +260,7 @@
 				50D8A9822995FC180087D7E3 /* Helpers */,
 				50D8A9992995FCC70087D7E3 /* Resources */,
 				50D8A9972995FC8E0087D7E3 /* ScopeTests */,
+				50D8A9B12995FD140087D7E3 /* SyntacticAnalyzerTests */,
 				50D8A9982995FCC70087D7E3 /* SourceCodeManagerTests.swift */,
 			);
 			path = Tests;
@@ -436,6 +457,23 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		50D8A9B12995FD140087D7E3 /* SyntacticAnalyzerTests */ = {
+			isa = PBXGroup;
+			children = (
+				50D8A9A42995FD110087D7E3 /* CharactersParserTests.swift */,
+				50D8A9A12995FD110087D7E3 /* DeclarationsParserTests.swift */,
+				50D8A99F2995FD110087D7E3 /* ExpressionsParserTests.swift */,
+				50D8A9A32995FD110087D7E3 /* FloatingPointLiteralsParserTests.swift */,
+				50D8A99D2995FD110087D7E3 /* IdentifiersParserTests.swift */,
+				50D8A99E2995FD110087D7E3 /* IntegerLiteralsParserTests.swift */,
+				50D8A9A52995FD110087D7E3 /* LiteralsParserTests.swift */,
+				50D8A9A22995FD110087D7E3 /* OperatorsParserTests.swift */,
+				50D8A9A62995FD110087D7E3 /* StatementsParserTests.swift */,
+				50D8A9A02995FD110087D7E3 /* TypesParserTests.swift */,
+			);
+			path = SyntacticAnalyzerTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -583,8 +621,11 @@
 				50D8A9002995FAE90087D7E3 /* Keyword.swift in Sources */,
 				50D8A9062995FAF80087D7E3 /* Compiler.swift in Sources */,
 				50D8A97B2995FB460087D7E3 /* Node.swift in Sources */,
+				50D8A9B02995FD110087D7E3 /* StatementsParserTests.swift in Sources */,
+				50D8A9AD2995FD110087D7E3 /* FloatingPointLiteralsParserTests.swift in Sources */,
 				50D8A9792995FB460087D7E3 /* NodeWalker.swift in Sources */,
 				50D8A9182995FB030087D7E3 /* SemanticCollector.swift in Sources */,
+				50D8A9A82995FD110087D7E3 /* IntegerLiteralsParserTests.swift in Sources */,
 				50D8A92B2995FB0E0087D7E3 /* RecordTable.swift in Sources */,
 				50D8A95D2995FB2E0087D7E3 /* TextReader.swift in Sources */,
 				50D8A9772995FB460087D7E3 /* BinaryNode.swift in Sources */,
@@ -593,10 +634,12 @@
 				50D8A96A2995FB3C0087D7E3 /* TokenBuilder.swift in Sources */,
 				50D8A9552995FB240087D7E3 /* SyntacticNode.swift in Sources */,
 				50D8A92F2995FB1A0087D7E3 /* SourceCodeManager.swift in Sources */,
+				50D8A9A72995FD110087D7E3 /* IdentifiersParserTests.swift in Sources */,
 				50D8A8F62995FAE90087D7E3 /* Punctuator.swift in Sources */,
 				50D8A9512995FB240087D7E3 /* ExpressionsParser.swift in Sources */,
 				50D8A91E2995FB030087D7E3 /* IntegerLiteralsExecutor.swift in Sources */,
 				50D8A8FC2995FAE90087D7E3 /* BaseType.swift in Sources */,
+				50D8A9AC2995FD110087D7E3 /* OperatorsParserTests.swift in Sources */,
 				50D8A9752995FB460087D7E3 /* NodeDumper.swift in Sources */,
 				50D8A9162995FB030087D7E3 /* Symbol.swift in Sources */,
 				50D8A98F2995FC180087D7E3 /* Parser.swift in Sources */,
@@ -607,7 +650,9 @@
 				50D8A9412995FB240087D7E3 /* OperatorsParser.swift in Sources */,
 				50D8A9952995FC8B0087D7E3 /* ScopeTests.swift in Sources */,
 				50D8A9732995FB460087D7E3 /* Stream.swift in Sources */,
+				50D8A9AA2995FD110087D7E3 /* TypesParserTests.swift in Sources */,
 				50D8A9572995FB240087D7E3 /* SyntacticNodeKind.swift in Sources */,
+				50D8A9AE2995FD110087D7E3 /* CharactersParserTests.swift in Sources */,
 				50D8A99B2995FCC70087D7E3 /* SourceCodeManagerTests.swift in Sources */,
 				50D8A9492995FB240087D7E3 /* CharactersParser.swift in Sources */,
 				50D8A9592995FB240087D7E3 /* SyntacticAnalyzer.swift in Sources */,
@@ -620,15 +665,18 @@
 				50D8A94D2995FB240087D7E3 /* TypesParser.swift in Sources */,
 				50D8A9272995FB0E0087D7E3 /* SymbolTable.swift in Sources */,
 				50D8A9022995FAE90087D7E3 /* DigitBase.swift in Sources */,
+				50D8A9AF2995FD110087D7E3 /* LiteralsParserTests.swift in Sources */,
 				50D8A9892995FC180087D7E3 /* FloatLiteralsExecutorTests.swift in Sources */,
 				50D8A9432995FB240087D7E3 /* IdentifiersParser.swift in Sources */,
 				50D8A91C2995FB030087D7E3 /* ExpressionsExecutor.swift in Sources */,
 				50D8A9962995FC8B0087D7E3 /* SymbolTableTests.swift in Sources */,
 				50D8A9452995FB240087D7E3 /* LiteralsParser.swift in Sources */,
+				50D8A9AB2995FD110087D7E3 /* DeclarationsParserTests.swift in Sources */,
 				50D8A94B2995FB240087D7E3 /* FloatingPointLiteralsParser.swift in Sources */,
 				50D8A8FE2995FAE90087D7E3 /* Literal.swift in Sources */,
 				50D8A9912995FC180087D7E3 /* ExpressionsExecutorTests.swift in Sources */,
 				50D8A9872995FC180087D7E3 /* IntegerLiteralsExecutorTests.swift in Sources */,
+				50D8A9A92995FD110087D7E3 /* ExpressionsParserTests.swift in Sources */,
 				50D8A91A2995FB030087D7E3 /* FloatLiteralsExecutor.swift in Sources */,
 				50D8A9252995FB0E0087D7E3 /* Scope.swift in Sources */,
 			);
