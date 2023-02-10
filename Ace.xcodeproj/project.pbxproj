@@ -225,7 +225,6 @@
 		50D8A9C72995FE290087D7E3 /* StreamTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamTests.swift; sourceTree = "<group>"; };
 		50D8A9CC2995FE7C0087D7E3 /* TestNodeKind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestNodeKind.swift; sourceTree = "<group>"; };
 		50D8A9CD2995FE7C0087D7E3 /* TestNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestNode.swift; sourceTree = "<group>"; };
-		50D8A9D02995FF550087D7E3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,7 +277,6 @@
 				50D8A95E2995FB3C0087D7E3 /* TokenParser */,
 				50D8A96B2995FB460087D7E3 /* Tools */,
 				5007DD882995FA3F00D15941 /* main.swift */,
-				50D8A9D02995FF550087D7E3 /* README.md */,
 			);
 			path = Ace;
 			sourceTree = "<group>";
