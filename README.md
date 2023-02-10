@@ -30,7 +30,7 @@ Compilation of this file ``SourceCode.ace``
 val value = 0.5
 
 var another = 2.5
-another = 3
+another = 3.0
 
 val result = value + another
 ```
@@ -39,7 +39,7 @@ will produce that output
 
 ```
 value: Double = 0.5
-another: Double = 3
+another: Double = 3.0
 result: Double = 3.5
 ```
 
