@@ -19,6 +19,8 @@ where ``$SOURCE_FILE_PATH`` is a string that describes full path to the source c
 - Constant declaration
 - Variable declaration
 - Math expressions calculation
+- Integer (decimal, binary, octal, hexadecimal) numbers support
+- Floating-point (decimal, hexadecimal) numbers support
 
 #### Example
 
