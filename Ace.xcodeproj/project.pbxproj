@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5007DD892995FA3F00D15941 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5007DD882995FA3F00D15941 /* main.swift */; };
-		5007DD962995FA5A00D15941 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5007DD952995FA5A00D15941 /* Tests.swift */; };
 		50D8A8F52995FAE90087D7E3 /* Punctuator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A8EE2995FAE90087D7E3 /* Punctuator.swift */; };
 		50D8A8F62995FAE90087D7E3 /* Punctuator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A8EE2995FAE90087D7E3 /* Punctuator.swift */; };
 		50D8A8F72995FAE90087D7E3 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A8EF2995FAE90087D7E3 /* Operator.swift */; };
@@ -96,6 +95,12 @@
 		50D8A97A2995FB460087D7E3 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9712995FB460087D7E3 /* Node.swift */; };
 		50D8A97B2995FB460087D7E3 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9712995FB460087D7E3 /* Node.swift */; };
 		50D8A97E2995FB8E0087D7E3 /* SourceCode.ace in Resources */ = {isa = PBXBuildFile; fileRef = 50D8A97D2995FB8E0087D7E3 /* SourceCode.ace */; };
+		50D8A9872995FC180087D7E3 /* IntegerLiteralsExecutorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A97F2995FC180087D7E3 /* IntegerLiteralsExecutorTests.swift */; };
+		50D8A9892995FC180087D7E3 /* FloatLiteralsExecutorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9802995FC180087D7E3 /* FloatLiteralsExecutorTests.swift */; };
+		50D8A98B2995FC180087D7E3 /* ExecutorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9812995FC180087D7E3 /* ExecutorTests.swift */; };
+		50D8A98D2995FC180087D7E3 /* MockExecutorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9832995FC180087D7E3 /* MockExecutorDelegate.swift */; };
+		50D8A98F2995FC180087D7E3 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9842995FC180087D7E3 /* Parser.swift */; };
+		50D8A9912995FC180087D7E3 /* ExpressionsExecutorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9852995FC180087D7E3 /* ExpressionsExecutorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -114,7 +119,6 @@
 		5007DD852995FA3F00D15941 /* Ace */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ace; sourceTree = BUILT_PRODUCTS_DIR; };
 		5007DD882995FA3F00D15941 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5007DD932995FA5A00D15941 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5007DD952995FA5A00D15941 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		50D8A8EE2995FAE90087D7E3 /* Punctuator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Punctuator.swift; sourceTree = "<group>"; };
 		50D8A8EF2995FAE90087D7E3 /* Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
 		50D8A8F02995FAE90087D7E3 /* Characters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
@@ -159,6 +163,12 @@
 		50D8A9702995FB460087D7E3 /* NodeWalker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeWalker.swift; sourceTree = "<group>"; };
 		50D8A9712995FB460087D7E3 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		50D8A97D2995FB8E0087D7E3 /* SourceCode.ace */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SourceCode.ace; sourceTree = "<group>"; };
+		50D8A97F2995FC180087D7E3 /* IntegerLiteralsExecutorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegerLiteralsExecutorTests.swift; sourceTree = "<group>"; };
+		50D8A9802995FC180087D7E3 /* FloatLiteralsExecutorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLiteralsExecutorTests.swift; sourceTree = "<group>"; };
+		50D8A9812995FC180087D7E3 /* ExecutorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExecutorTests.swift; sourceTree = "<group>"; };
+		50D8A9832995FC180087D7E3 /* MockExecutorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockExecutorDelegate.swift; sourceTree = "<group>"; };
+		50D8A9842995FC180087D7E3 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		50D8A9852995FC180087D7E3 /* ExpressionsExecutorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressionsExecutorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,7 +228,8 @@
 		5007DD942995FA5A00D15941 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				5007DD952995FA5A00D15941 /* Tests.swift */,
+				50D8A9922995FC1C0087D7E3 /* ExecutorTests */,
+				50D8A9822995FC180087D7E3 /* Helpers */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -375,6 +386,26 @@
 				50D8A97D2995FB8E0087D7E3 /* SourceCode.ace */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		50D8A9822995FC180087D7E3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				50D8A9832995FC180087D7E3 /* MockExecutorDelegate.swift */,
+				50D8A9842995FC180087D7E3 /* Parser.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		50D8A9922995FC1C0087D7E3 /* ExecutorTests */ = {
+			isa = PBXGroup;
+			children = (
+				50D8A9812995FC180087D7E3 /* ExecutorTests.swift */,
+				50D8A9852995FC180087D7E3 /* ExpressionsExecutorTests.swift */,
+				50D8A9802995FC180087D7E3 /* FloatLiteralsExecutorTests.swift */,
+				50D8A97F2995FC180087D7E3 /* IntegerLiteralsExecutorTests.swift */,
+			);
+			path = ExecutorTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -539,8 +570,11 @@
 				50D8A8FC2995FAE90087D7E3 /* BaseType.swift in Sources */,
 				50D8A9752995FB460087D7E3 /* NodeDumper.swift in Sources */,
 				50D8A9162995FB030087D7E3 /* Symbol.swift in Sources */,
+				50D8A98F2995FC180087D7E3 /* Parser.swift in Sources */,
 				50D8A9682995FB3C0087D7E3 /* Token.swift in Sources */,
 				50D8A9662995FB3C0087D7E3 /* TokenParser.swift in Sources */,
+				50D8A98D2995FC180087D7E3 /* MockExecutorDelegate.swift in Sources */,
+				50D8A98B2995FC180087D7E3 /* ExecutorTests.swift in Sources */,
 				50D8A9412995FB240087D7E3 /* OperatorsParser.swift in Sources */,
 				50D8A9732995FB460087D7E3 /* Stream.swift in Sources */,
 				50D8A9572995FB240087D7E3 /* SyntacticNodeKind.swift in Sources */,
@@ -549,18 +583,20 @@
 				50D8A94F2995FB240087D7E3 /* DeclarationsParser.swift in Sources */,
 				50D8A9532995FB240087D7E3 /* IntegerLiteralsParser.swift in Sources */,
 				50D8A8F82995FAE90087D7E3 /* Operator.swift in Sources */,
-				5007DD962995FA5A00D15941 /* Tests.swift in Sources */,
 				50D8A9122995FB030087D7E3 /* Executor.swift in Sources */,
 				50D8A9292995FB0E0087D7E3 /* Record.swift in Sources */,
 				50D8A8FA2995FAE90087D7E3 /* Characters.swift in Sources */,
 				50D8A94D2995FB240087D7E3 /* TypesParser.swift in Sources */,
 				50D8A9272995FB0E0087D7E3 /* SymbolTable.swift in Sources */,
 				50D8A9022995FAE90087D7E3 /* DigitBase.swift in Sources */,
+				50D8A9892995FC180087D7E3 /* FloatLiteralsExecutorTests.swift in Sources */,
 				50D8A9432995FB240087D7E3 /* IdentifiersParser.swift in Sources */,
 				50D8A91C2995FB030087D7E3 /* ExpressionsExecutor.swift in Sources */,
 				50D8A9452995FB240087D7E3 /* LiteralsParser.swift in Sources */,
 				50D8A94B2995FB240087D7E3 /* FloatingPointLiteralsParser.swift in Sources */,
 				50D8A8FE2995FAE90087D7E3 /* Literal.swift in Sources */,
+				50D8A9912995FC180087D7E3 /* ExpressionsExecutorTests.swift in Sources */,
+				50D8A9872995FC180087D7E3 /* IntegerLiteralsExecutorTests.swift in Sources */,
 				50D8A91A2995FB030087D7E3 /* FloatLiteralsExecutor.swift in Sources */,
 				50D8A9252995FB0E0087D7E3 /* Scope.swift in Sources */,
 			);
