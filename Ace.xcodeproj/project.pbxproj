@@ -95,6 +95,7 @@
 		50D8A9792995FB460087D7E3 /* NodeWalker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9702995FB460087D7E3 /* NodeWalker.swift */; };
 		50D8A97A2995FB460087D7E3 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9712995FB460087D7E3 /* Node.swift */; };
 		50D8A97B2995FB460087D7E3 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8A9712995FB460087D7E3 /* Node.swift */; };
+		50D8A97E2995FB8E0087D7E3 /* SourceCode.ace in Resources */ = {isa = PBXBuildFile; fileRef = 50D8A97D2995FB8E0087D7E3 /* SourceCode.ace */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -157,6 +158,7 @@
 		50D8A96F2995FB460087D7E3 /* BinaryNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryNode.swift; sourceTree = "<group>"; };
 		50D8A9702995FB460087D7E3 /* NodeWalker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeWalker.swift; sourceTree = "<group>"; };
 		50D8A9712995FB460087D7E3 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		50D8A97D2995FB8E0087D7E3 /* SourceCode.ace */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SourceCode.ace; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +203,7 @@
 				50D8A9032995FAF80087D7E3 /* Compiler */,
 				50D8A8ED2995FAE90087D7E3 /* Constants */,
 				50D8A9072995FB030087D7E3 /* Executor */,
+				50D8A97C2995FB8E0087D7E3 /* Resources */,
 				50D8A91F2995FB0E0087D7E3 /* Scope */,
 				50D8A92C2995FB1A0087D7E3 /* SourceCodeManager */,
 				50D8A9302995FB240087D7E3 /* SyntacticAnalyzer */,
@@ -366,6 +369,14 @@
 			path = Node;
 			sourceTree = "<group>";
 		};
+		50D8A97C2995FB8E0087D7E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50D8A97D2995FB8E0087D7E3 /* SourceCode.ace */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -446,6 +457,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50D8A97E2995FB8E0087D7E3 /* SourceCode.ace in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
