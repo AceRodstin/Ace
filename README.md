@@ -20,6 +20,27 @@ where ``$SOURCE_FILE_PATH`` is a string that describes full path to the source c
 - Variable declaration
 - Math expressions calculation
 
+#### Example
+
+Compilation of this file ``SourceCode.ace``
+
+```
+val value = 0.5
+
+var another = 2.5
+another = 3
+
+val result = value + another
+```
+
+will produce that output
+
+```
+value: Double = 0.5
+another: Double = 3
+result: Double = 3.5
+```
+
 #### Grammar
 
 You can acquainted with ace programming language grammar in the ``Grammar.md`` file.
